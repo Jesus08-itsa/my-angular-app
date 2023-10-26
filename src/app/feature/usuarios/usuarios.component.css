@@ -1,0 +1,44 @@
+
+
+.usuarios-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #0a0a0a;
+  }
+  
+  th, td {
+    border: 1px solid #0c0c0c;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f70a0a;
+    color: #070707;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #0c0c0c;
+  }
+  
+  tr:hover {
+    background-color: #020202;
+  }
+  
+  img {
+    max-width: 50px;
+    max-height: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+  

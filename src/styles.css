@@ -1,1 +1,83 @@
-/* You can add global styles to this file, and also import other style files */
+/* Agregar la fuente "Lato" */
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+/* Establecer un fondo oscuro para toda la aplicación */
+body, app-root {
+  background-color: #0c0c0c;
+  color: #f70101;
+}
+
+/* Personalizar el estilo del formulario de crear usuarios */
+.crear-usuario-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #111111; /* Fondo oscuro */
+  padding: 20px;
+  border: 1px solid #0a0a0a;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff0000;
+}
+
+form {
+  background-color: #080808; /* Fondo oscuro */
+  padding: 20px;
+  border: 1px solid #0f0f0f;
+  border-radius: 5px;
+}
+
+/* Personalizar el estilo del formulario de inicio de sesión */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #111111; /* Fondo oscuro */
+  padding: 20px;
+  border: 1px solid #0a0a0a;
+  border-radius: 5px;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff0000;
+}
+
+.login-container form {
+  background-color: #080808; /* Fondo oscuro */
+  padding: 20px;
+  border: 1px solid #0f0f0f;
+  border-radius: 5px;
+}
+
+/* Personalizar el estilo de la lista de usuarios */
+.usuarios-container {
+  background-color: #0c0c0c; /* Fondo oscuro */
+  color: #f70101;
+  padding: 20px;
+  border: 1px solid #0a0a0a;
+  border-radius: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #0f0f0f;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #080808; /* Fondo oscuro */
+  color: #f70101;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

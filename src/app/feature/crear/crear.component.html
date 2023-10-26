@@ -1,0 +1,14 @@
+<div class="crear-usuario-container">
+  <h2>Crear Usuario</h2>
+  <form (ngSubmit)="crearUsuario()">
+    <div class="form-group">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" [(ngModel)]="nuevoUsuario.name" required>
+    </div>
+    <div class="form-group">
+      <label for="job">Puesto:</label>
+      <input type="text" id="job" name="job" [(ngModel)]="nuevoUsuario.job" required>
+    </div>
+    <button type="submit">Crear Usuario</button>
+  </form>
+</div>

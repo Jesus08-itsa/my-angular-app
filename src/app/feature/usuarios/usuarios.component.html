@@ -1,0 +1,17 @@
+<div class="usuarios-container">
+  <h2>Lista de Usuarios</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Correo</th>
+        <th>Imagen</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let usuario of usuarios">
+        <td>{{ usuario.correo }}</td>
+        <td><img [src]="usuario.imagen" alt="Avatar"></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
